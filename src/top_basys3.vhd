@@ -80,16 +80,14 @@ architecture top_basys3_arch of top_basys3 is
 	
   -- declare the component of your top-level design
 
-
   -- create wire to connect button to 7SD enable (active-low)
 
   
 begin
 	-- PORT MAPS ----------------------------------------
-
+    
 	--	Port map: wire your component up to the switches and seven-segment display cathodes
 	-----------------------------------------------------	
-	
 	
 	-- CONCURRENT STATEMENTS ----------------------------
 	
