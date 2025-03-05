@@ -91,13 +91,9 @@ architecture top_basys3_arch of top_basys3 is
 begin
 	-- PORT MAPS ----------------------------------------
        sevendeg_decoder_inst : sevenseg_decoder 
-
 	--	Port map: wire your component up to the switches and seven-segment display cathodes
 	   port map(
-	       i_Hex(0) => sw(0),
-	       i_Hex(1) => sw(1),
-	       i_Hex(2) => sw(2), 
-	       i_Hex(3) => sw(3),
+	       i_Hex => sw,
 	       
 	       o_seg_n => seg
 	   );
